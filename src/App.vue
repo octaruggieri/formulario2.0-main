@@ -72,7 +72,7 @@ const submit = async () => {
   const axiosConfig = {
     headers: {
       'Content-Type': 'multipart/form-data',
-      'Accept': 'application/json',
+      
     },
   };
 
