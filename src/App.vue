@@ -77,7 +77,7 @@ const submit = async () => {
   };
 
   // Verificar que la URL sea correcta
-  const url = 'https://polite-cuchufli-ea0d15.netlify.app/send_mail.php';
+  const url = 'https://1-xactimate.com/formulario-water/send_mail.php';
   console.log('URL:', url);
 
   // Realizar la solicitud POST con axios
