@@ -101,28 +101,34 @@ onMounted(() => {
 
 </script>
 <template>
+  
   <body id="form">
     <div ref="body" id="body">
-      <link rel="stylesheet" href="style.css">
-      <nav>
-        <div class="nav__logo"><img src="assets/xactime.png" alt=""></div>
-        <ul class="nav__links" id="nav-links">
-          <li class="link"><a href="#">Home</a></li>
-          <li class="link"><a href="#">Water</a></li>
-          <li class="link"><a href="#">Mold</a></li>
-          <li class="link"><a href="#">Roof</a></li>
-          <li class="link"><a href="#">Contact</a></li>
+      
+      <nav style=" margin-top: -30px; max-width: 2000px; margin: auto; display: flex; align-items: center; justify-content: space-around; background: #ffffff;
+      position: absolute; top: 0; width: 100%; z-index: -1000; right: 0.5px; padding: 1rem 1rem; ">
+        <div class="nav__logo" style=" width: 155px; font-weight: 700; color: var(--white); margin-right: 35%;"><img src="assets/xactime.png" alt=""></div>
+        <ul class="nav__links" style="list-style: none; text-decoration-color: #000; display: flex; align-items: center; gap: 4rem; margin-top: 10px; margin-right: 40%;" id="nav-links">
+          <li  class="link"><a style="color: #000; text-decoration: none;" href="https://1-xactimate.com/">Home </a></li>
+          <li class="link active"><a style="color: #000; " href="#">Water</a></li>
+          <li class="link"><a style="color: #000; text-decoration: none;" href="https://1-xactimate.com/mold/">Mold</a></li>
+          <li class="link"><a style="color: #000; text-decoration: none;" href="https://1-xactimate.com/roof/">Roof</a></li>
+          <li class="link"><a style="color: #000; text-decoration: none;" href="https://1-xactimate.com/contact/">Contact</a></li>
         </ul>
         <div class="nav__menu__btn" id="menu-btn">
           <span><i class="ri-menu-line"></i></span>
         </div>
       </nav> 
 
+      
+
+      
+
       <fieldset id="fieldset_1" style="
             background-color: #6dc5ed;
             border-radius: 10px;
-            border: solid #89b6d0;
-            color: #1e2692;
+            border: solid #2b96d4;
+            color: #03477e;
             width: 40rem;
             
             
@@ -179,7 +185,7 @@ onMounted(() => {
       <fieldset id="fieldset_2" style="
             background-color: #e28080;
             border-radius: 10px;
-            border: solid #89b6d0;
+            border: solid #be6e6e;
             color: #1e2692;
             width: 40rem;
             
@@ -262,7 +268,7 @@ onMounted(() => {
       <fieldset id="fieldset_3" style="
             background-color: #e76969;
             border-radius: 10px;
-            border: solid #89b6d0;
+            border: solid #be6e6e;
             color: #1e2692;
             width: 40rem;
             
@@ -337,7 +343,7 @@ onMounted(() => {
       <fieldset id="fieldset_4" style="
             background-color: #e76969;
             border-radius: 10px;
-            border: solid #89b6d0;
+            border: solid #be6e6e;
             color: #1e2692;
             width: 40rem;
             
@@ -430,7 +436,7 @@ onMounted(() => {
           Equipment Placement
         </legend>
         <fieldset id="fieldset_6" style="
-              background-color: white;
+              background-color: rgb(255, 255, 255);
               border-radius: 10px;
               border: solid #89b6d0;
               color: black;
@@ -464,16 +470,17 @@ onMounted(() => {
                   border: solid #cdcdcd 2px;
                   letter-spacing: 0px;
                   height: 35px;"
+                  
             />
           </div>
         </fieldset>
       </fieldset>
 
       <fieldset id="fieldset_7" style="
-            background-color: white;
+            background-color: rgba(54, 147, 223, 0.171);
             border-radius: 10px;
             border: solid #89b6d0;
-            color: balck;
+            color: #000;
             width: 40rem;
             
             
@@ -499,7 +506,7 @@ onMounted(() => {
               margin: 30px auto;
               display: flex;
               justify-content: normal;
-              color: #cecece;
+              color: #000000;
             ">
           <label class="ejemplos" for="dehumidifierEA">
             <span style="color: black">Example:</span>
@@ -516,7 +523,7 @@ onMounted(() => {
                   height: 35px;"/>
         </div>
 
-        <div class="form-line" style="font-size: 12px; color: #cecece; margin: 30px auto">
+        <div class="form-line" style="font-size: 12px; color: #000000; margin: 30px auto">
           <label class="ejemplos" for="dehumidifierEA"><span style="color: black">Example:</span> (____EA) x
             (_____Days)</label>
         </div>
@@ -539,7 +546,7 @@ onMounted(() => {
       </fieldset>
 
       <fieldset id="fieldset_8" style="
-            background-color: white;
+            background-color: rgba(54, 147, 223, 0.171);
             border-radius: 10px;
             border: solid #89b6d0;
             color: balck;
@@ -3295,3 +3302,4 @@ fieldset {
   margin: 0 5px;
 }
 </style>
+
