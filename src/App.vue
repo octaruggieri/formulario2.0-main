@@ -103,7 +103,21 @@ onMounted(() => {
 <template>
   <body id="form">
     <div ref="body" id="body">
-      <nav>hola</nav>
+      <link rel="stylesheet" href="style.css">
+      <nav>
+        <div class="nav__logo"><img src="assets/xactime.png" alt=""></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#">Home</a></li>
+          <li class="link"><a href="#">Water</a></li>
+          <li class="link"><a href="#">Mold</a></li>
+          <li class="link"><a href="#">Roof</a></li>
+          <li class="link"><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </nav> 
+
       <fieldset id="fieldset_1" style="
             background-color: #6dc5ed;
             border-radius: 10px;
