@@ -103,7 +103,7 @@ onMounted(() => {
 <template>
   <body id="form">
     <div ref="body" id="body">
-
+      <nav>hola</nav>
       <fieldset id="fieldset_1" style="
             background-color: #6dc5ed;
             border-radius: 10px;
